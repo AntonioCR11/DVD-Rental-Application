@@ -8,11 +8,10 @@ export default {
       colors :{
         "primary" : "#42B883",
         "light" : "#fefefe",
-        "light-2" : "#efefef",
-        "dark" : "#111",
-        "dark-2" : "#1A1A1A",
+        "dark" : "#121212",
+        "dark-2" : "#212121",
         "dark-3" : "#222",
-        "border" : "#363636"
+        "border" : "#3c3c3c"
       }
     },
   },

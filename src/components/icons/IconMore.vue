@@ -1,19 +1,17 @@
 <script setup>
 defineProps({
-  theme: String
+  theme: String,
+  size: Number,
 });
-
 </script>
-
 
 <template>
   <svg
-    width="36px"
-    height="36px"
+    :height="size"
+    :width="size"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    class="hover:scale-110 transition-all"
   >
     <rect width="24" height="24" />
     <circle
